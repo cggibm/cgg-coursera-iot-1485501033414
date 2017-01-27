@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: cgg-coursera-iot
+  host: cgg-coursera-iot
+  disk_quota: 1024M
+  services:
+  - cgg-coursera-iot-cloudantNoSQLDB
+  - cgg-coursera-iot-iotf-service
